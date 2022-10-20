@@ -1,3 +1,6 @@
+"""Contains Flask application.
+"""
+
 from flask import Flask
 
 
