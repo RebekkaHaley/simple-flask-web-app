@@ -4,7 +4,7 @@ version = "0.1.0"
 description = ""
 authors = ["Rebekka Haley <rebekka.haley@gmail.com>"]
 readme = "README.md"
-packages = [{include = "flask_web_app"}]
+packages = [{include = "website"}]
 
 [tool.poetry.dependencies]
 python = "^3.10"
