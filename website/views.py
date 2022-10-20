@@ -6,6 +6,7 @@ from flask import Blueprint
 # NB: A 'Blueprint' has a bunch of URLs pre-defined.
 views = Blueprint('views', __name__)
 
+
 # NB: This function will run whenever we go to the '/' route.
 @views.route('/')
 def home():
