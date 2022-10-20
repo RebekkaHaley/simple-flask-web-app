@@ -8,6 +8,8 @@ This repo contains code for a simple web application built in Python and Flask.
 
 ## Setup
 
+Download repo.
+
 Run `poetry install` in your terminal.
 
 ## Run The App
