@@ -8,7 +8,7 @@ def create_app():
     """Initialises Flask application.
     """
     app = Flask(__name__)
-    app.config['SECRET KEY'] = 'never share in production'
+    app.config['SECRET_KEY'] = 'never share in production'
 
     from .views import views
     from .auth import auth
